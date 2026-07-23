@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Production Deploy') {
+        stage('Production') {
             steps {
                 echo "Deploying stable build to Production live servers..."
             }
